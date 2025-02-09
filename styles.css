@@ -141,8 +141,23 @@ html {
 
 body {
   width: 80%;
-  max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(pink, rgb(128, 186, 239));
+}
+
+.container {
+  height: 400px;
+  overflow: auto;
+  
+  max-width: 800px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 /* Typography */
